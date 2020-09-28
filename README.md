@@ -28,8 +28,8 @@ src="https://cdn.rawgit.com/mlpack/mlpack.org/e7d36ed8/mlpack-black.svg" style="
 </p>
 
 **mlpack** is an intuitive, fast, and flexible C++ machine learning library with
-bindings to other languages.  It is meant to be a machine learning analog to
-LAPACK, and aims to implement a wide array of machine learning methods and
+bindings to other languages.  It is meant to be a machine learning analogue to
+LAPACK and aims to implement a wide array of machine learning methods and
 functions as a "swiss army knife" for machine learning researchers.  In addition
 to its powerful C++ interface, mlpack also provides command-line programs,
 Python bindings, Julia bindings, Go bindings and R bindings.
@@ -64,7 +64,7 @@ variety of other needs.
 
 ###  1. Introduction
 
-The mlpack website can be found at https://www.mlpack.org and it contains
+The mlpack website can be found at https://www.mlpack.org, and it contains
 numerous tutorials and extensive documentation.  This README serves as a guide
 for what mlpack is, how to install it, how to run it, and where to find more
 documentation. The website should be consulted for further information:
@@ -142,9 +142,9 @@ If you are compiling Armadillo by hand, ensure that LAPACK and BLAS are enabled.
 
 ### 4. Building mlpack from source
 
-This document discusses how to build mlpack from source. These build directions 
+This document discusses how to build mlpack from the source. These build directions 
 will work for any Linux-like shell environment (for example Ubuntu, macOS,
-FreeBSD etc). However, mlpack is in the repositories of many Linux distributions 
+FreeBSD, etc.). However, mlpack is in the repositories of many Linux distributions, 
 and so it may be easier to use the package manager for your system.  For example, 
 on Ubuntu, you can install mlpack with the following command:
 
@@ -178,7 +178,7 @@ sufficient.
     $ cd build
 
 The next step is to run CMake to configure the project.  Running CMake is the
-equivalent to running `./configure` with autotools. If you run CMake with no
+equivalent to running `./configure` with Autotools. If you run CMake with no
 options, it will configure the project to build with no debugging symbols and 
 no profiling information:
 
@@ -237,7 +237,7 @@ of the build can be specified:
 
     $ make mlpack_pca mlpack_knn mlpack_kfn
 
-If the build fails and you cannot figure out why, register an account on Github
+If the build fails and you cannot figure out why register an account on Github
 and submit an issue. The mlpack developers will quickly help you figure it out:
 
 [mlpack on Github](https://www.github.com/mlpack/mlpack/)
@@ -275,7 +275,7 @@ manually).  One way to do this, on Linux, is to ensure that the
 
 After building mlpack, the executables will reside in `build/bin/`.  You can call
 them from there, or you can install the library and (depending on system
-settings) they should be added to your PATH and you can call them directly.  The
+settings) they should be added to your PATH, and you can call them directly.  The
 documentation below assumes the executables are in your PATH.
 
 Consider the 'mlpack_knn' program, which finds the k nearest neighbors in a
@@ -339,7 +339,7 @@ programs.
 ### 7. Further documentation
 
 The documentation given here is only a fraction of the available documentation
-for mlpack.  If doxygen is installed, you can type `make doc` to build the
+for mlpack.  If Doxygen is installed, you can type `make doc` to build the
 documentation locally.  Alternately, up-to-date documentation is available for
 older versions of mlpack:
 
@@ -356,7 +356,7 @@ older versions of mlpack:
 If you find a bug in mlpack or have any problems, numerous routes are available
 for help.
 
-Github is used for bug tracking, and can be found at
+Github is used for bug tracking and can be found at
 https://github.com/mlpack/mlpack/.
 It is easy to register an account and file a bug there, and the mlpack
 development team will try to quickly resolve your issue.
